@@ -1,0 +1,37 @@
+{
+  "name": "haunt-engine",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "setup:model": "ollama pull gemma4:12b-it-qat && ollama create haunt-gemma -f ollama/haunt-gemma.Modelfile",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "haunt": "tsx scripts/haunt.mts"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "phaser": "^4.2.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "seedrandom": "^3.0.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/seedrandom": "^3.0.8",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

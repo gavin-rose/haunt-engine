@@ -1,0 +1,795 @@
+{
+ "grand_piano": {
+  "fw": 2,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   0,
+   0,
+   64,
+   74
+  ]
+ },
+ "upright_piano": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   64,
+   0,
+   65,
+   70
+  ]
+ },
+ "pipe_organ": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   129,
+   0,
+   95,
+   85
+  ]
+ },
+ "grandfather_clock": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   224,
+   0,
+   18,
+   71
+  ]
+ },
+ "fireplace": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   242,
+   0,
+   94,
+   72
+  ]
+ },
+ "wardrobe": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   336,
+   0,
+   64,
+   77
+  ]
+ },
+ "bookshelf": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   400,
+   0,
+   32,
+   64
+  ]
+ },
+ "dresser": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   432,
+   0,
+   64,
+   46
+  ]
+ },
+ "cabinet": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   496,
+   0,
+   32,
+   59
+  ]
+ },
+ "dining_table": {
+  "fw": 3,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   528,
+   0,
+   80,
+   80
+  ]
+ },
+ "round_table": {
+  "fw": 2,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   608,
+   0,
+   63,
+   54
+  ]
+ },
+ "small_table": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   671,
+   0,
+   32,
+   57
+  ]
+ },
+ "bench": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   703,
+   0,
+   69,
+   20
+  ]
+ },
+ "long_table": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   772,
+   0,
+   80,
+   25
+  ]
+ },
+ "stool": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   852,
+   0,
+   25,
+   20
+  ]
+ },
+ "chair": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   877,
+   0,
+   24,
+   26
+  ]
+ },
+ "armchair": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   901,
+   0,
+   26,
+   30
+  ]
+ },
+ "writing_desk": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   927,
+   0,
+   64,
+   32
+  ]
+ },
+ "school_desk": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   0,
+   85,
+   64,
+   45
+  ]
+ },
+ "canopy_bed": {
+  "fw": 1,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   64,
+   85,
+   32,
+   94
+  ]
+ },
+ "bunk_bed": {
+  "fw": 3,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   96,
+   85,
+   81,
+   91
+  ]
+ },
+ "sofa": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   177,
+   85,
+   64,
+   60
+  ]
+ },
+ "vanity": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   241,
+   85,
+   32,
+   63
+  ]
+ },
+ "chess_table": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   273,
+   85,
+   24,
+   31
+  ]
+ },
+ "pew": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   297,
+   85,
+   92,
+   32
+  ]
+ },
+ "gothic_chair": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   389,
+   85,
+   24,
+   49
+  ]
+ },
+ "folding_screen": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   413,
+   85,
+   29,
+   78
+  ]
+ },
+ "nightstand": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   442,
+   85,
+   18,
+   30
+  ]
+ },
+ "mantel_clock": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   460,
+   85,
+   17,
+   25
+  ]
+ },
+ "counter": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "furniture",
+  "frame": [
+   477,
+   85,
+   84,
+   20
+  ]
+ },
+ "bed": {
+  "fw": 1,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   561,
+   85,
+   32,
+   90
+  ]
+ },
+ "barrels": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   593,
+   85,
+   60,
+   44
+  ]
+ },
+ "crate": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   653,
+   85,
+   32,
+   56
+  ]
+ },
+ "stove": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   685,
+   85,
+   32,
+   27
+  ]
+ },
+ "sink": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   717,
+   85,
+   32,
+   25
+  ]
+ },
+ "skull": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   749,
+   85,
+   17,
+   16
+  ]
+ },
+ "papers": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   766,
+   85,
+   31,
+   30
+  ]
+ },
+ "jars": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   797,
+   85,
+   63,
+   17
+  ]
+ },
+ "alchemy_table": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   860,
+   85,
+   64,
+   60
+  ]
+ },
+ "lantern": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "floor",
+  "source": "interior",
+  "frame": [
+   924,
+   85,
+   11,
+   16
+  ]
+ },
+ "coffin": {
+  "fw": 1,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   935,
+   85,
+   32,
+   62
+  ]
+ },
+ "skeleton": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   967,
+   85,
+   29,
+   30
+  ]
+ },
+ "armor": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   0,
+   179,
+   30,
+   54
+  ]
+ },
+ "ritual_circle": {
+  "fw": 3,
+  "fh": 2,
+  "blocking": false,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   30,
+   179,
+   96,
+   64
+  ]
+ },
+ "statue": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   126,
+   179,
+   30,
+   64
+  ]
+ },
+ "crystals": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   156,
+   179,
+   27,
+   62
+  ]
+ },
+ "boulder": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   183,
+   179,
+   28,
+   27
+  ]
+ },
+ "broken_planks": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "floor",
+  "source": "ruins",
+  "frame": [
+   211,
+   179,
+   31,
+   25
+  ]
+ },
+ "headstone": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   242,
+   179,
+   32,
+   32
+  ]
+ },
+ "headstone_rip": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   274,
+   179,
+   28,
+   27
+  ]
+ },
+ "headstone_cross": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   302,
+   179,
+   24,
+   64
+  ]
+ },
+ "wooden_cross": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   326,
+   179,
+   22,
+   62
+  ]
+ },
+ "celtic_cross": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   348,
+   179,
+   28,
+   45
+  ]
+ },
+ "grave_plot": {
+  "fw": 2,
+  "fh": 2,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   376,
+   179,
+   61,
+   94
+  ]
+ },
+ "large_headstone": {
+  "fw": 2,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   437,
+   179,
+   47,
+   44
+  ]
+ },
+ "monolith": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": true,
+  "mount": "floor",
+  "source": "graves",
+  "frame": [
+   484,
+   179,
+   30,
+   46
+  ]
+ },
+ "chalkboard": {
+  "fw": 3,
+  "fh": 1,
+  "blocking": false,
+  "mount": "wall",
+  "source": "drawn",
+  "frame": [
+   514,
+   179,
+   92,
+   44
+  ]
+ },
+ "painting": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "wall",
+  "source": "drawn",
+  "frame": [
+   606,
+   179,
+   30,
+   26
+  ]
+ },
+ "portrait": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "wall",
+  "source": "drawn",
+  "frame": [
+   636,
+   179,
+   26,
+   34
+  ]
+ },
+ "mirror": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "wall",
+  "source": "drawn",
+  "frame": [
+   662,
+   179,
+   22,
+   38
+  ]
+ },
+ "window": {
+  "fw": 1,
+  "fh": 1,
+  "blocking": false,
+  "mount": "wall",
+  "source": "drawn",
+  "frame": [
+   684,
+   179,
+   30,
+   34
+  ]
+ }
+}

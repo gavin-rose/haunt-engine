@@ -1,0 +1,65 @@
+{
+  "title": "St. Agnes Elementary, After Hours",
+  "premise": "You came back for the yearbook your grandmother left in her classroom. The school closed in 1962. Someone has kept the chalkboard clean ever since.",
+  "setting": "abandoned elementary school",
+  "rooms": [
+    { "id": "lobby", "name": "Front Lobby", "size": "medium", "condition": "dusty", "floor": "tile", "walls": "institutional", "dark": false, "furniture": ["bench", "portrait", "grandfather_clock", "window"], "mood": "The clock says 3:15. It has said 3:15 since 1962." },
+    { "id": "east_hall", "name": "East Hallway", "size": "hall", "condition": "dusty", "floor": "worn_wood", "walls": "institutional", "dark": true, "furniture": ["cabinet", "window", "papers"], "mood": "Every door is closed except the one that was open a second ago." },
+    { "id": "room_12b", "name": "Room 12B: Mrs. Okafor's Class", "size": "large", "condition": "intact", "floor": "wood", "walls": "wallpaper_green", "dark": false, "furniture": ["chalkboard", "school_desk", "writing_desk", "bookshelf", "window"], "mood": "Today's date is written on the board, in her handwriting." },
+    { "id": "music", "name": "Music Room", "size": "medium", "condition": "flooded", "floor": "parquet", "walls": "wallpaper_blue", "dark": true, "furniture": ["upright_piano", "chair", "painting"], "mood": "Water drips onto the piano keys in the same four notes." },
+    { "id": "janitor", "name": "Janitor's Closet", "size": "small", "condition": "collapsed", "floor": "stone", "walls": "brick", "dark": true, "furniture": ["crate", "barrels", "jars"], "mood": "Someone's coat still hangs on the hook. It is wet." },
+    { "id": "library", "name": "Library", "size": "large", "condition": "overgrown", "floor": "dark_wood", "walls": "wood_panel", "dark": false, "furniture": ["bookshelf", "long_table", "armchair", "portrait", "mantel_clock"], "mood": "Ivy has grown through the shelves in the shape of a doorway." },
+    { "id": "chapel", "name": "Chapel", "size": "large", "condition": "burned", "floor": "flagstone", "walls": "stone", "dark": true, "furniture": ["pew", "pipe_organ", "statue", "coffin"], "mood": "Scorch marks on the floor form a ring. Nothing burned inside it." },
+    { "id": "back_exit", "name": "Back Stairwell", "size": "small", "condition": "frozen", "floor": "pale_stone", "walls": "plaster", "dark": true, "furniture": ["skull", "window"], "mood": "Your breath fogs. The exit sign still glows." }
+  ],
+  "connections": [
+    { "from": "lobby", "to": "east_hall", "kind": "open" },
+    { "from": "east_hall", "to": "room_12b", "kind": "locked", "key": "brass_key" },
+    { "from": "east_hall", "to": "music", "kind": "door" },
+    { "from": "east_hall", "to": "janitor", "kind": "door" },
+    { "from": "lobby", "to": "library", "kind": "door" },
+    { "from": "library", "to": "chapel", "kind": "hidden" },
+    { "from": "chapel", "to": "back_exit", "kind": "locked", "key": "boiler_key" },
+    { "from": "music", "to": "chapel", "kind": "vent" }
+  ],
+  "start": "lobby",
+  "items": [
+    { "id": "brass_key", "name": "Brass Key", "description": "Tagged '12B' in careful cursive.", "room": "janitor" },
+    { "id": "yearbook", "name": "1962 Yearbook", "description": "Every face on page 40 has been scratched out except one. It's yours.", "room": "room_12b" },
+    { "id": "boiler_key", "name": "Chapel Key", "description": "Warm to the touch.", "room": "library" },
+    { "id": "music_box", "name": "Music Box", "description": "It plays the four notes from the piano.", "room": "music" }
+  ],
+  "cast": [
+    {
+      "id": "okafor", "name": "Mrs. Okafor", "kind": "ghost", "role": "teacher, Room 12B, died 1962",
+      "appearance": { "body": "female", "skin": "lavender", "head": "elderly", "hair": "bun", "hair_color": "gray", "beard": "none", "top": "cardigan", "top_color": "gray", "outer": "none", "outer_color": "black", "bottom": "long_skirt", "bottom_color": "navy", "shoes": "shoes", "hat": "none", "hat_color": "black", "face": "round_glasses", "neck": "necklace", "held": "none", "wound": "none" },
+      "behavior": "stationary", "hostile": false, "room": "room_12b",
+      "persona": "Gentle and precise. Still taking attendance. She wants her class back and won't let you leave until the yearbook is returned to its shelf."
+    },
+    {
+      "id": "halloway", "name": "Mr. Halloway", "kind": "ghost", "role": "janitor, died in the chapel fire",
+      "appearance": { "body": "male", "skin": "blue", "head": "gaunt", "hair": "balding", "hair_color": "gray", "beard": "stubble", "top": "longsleeve", "top_color": "white", "outer": "overalls", "outer_color": "gray", "bottom": "pants", "bottom_color": "gray", "shoes": "boots", "hat": "cap", "hat_color": "gray", "face": "none", "neck": "none", "held": "shovel", "wound": "none" },
+      "behavior": "patrol", "hostile": false, "room": "east_hall",
+      "persona": "Polite, distracted, keeps asking if you've seen his keys. Knows where the fire started."
+    },
+    {
+      "id": "hall_monitor", "name": "The Hall Monitor", "kind": "shadow", "role": "something that wears a sash",
+      "appearance": { "body": "child", "skin": "black", "head": "human", "hair": "none", "hair_color": "black", "beard": "none", "top": "longsleeve", "top_color": "white", "outer": "none", "outer_color": "black", "bottom": "pants", "bottom_color": "black", "shoes": "shoes", "hat": "none", "hat_color": "black", "face": "none", "neck": "none", "held": "none", "wound": "none" },
+      "behavior": "stalk", "hostile": true, "room": "chapel",
+      "persona": "Doesn't speak. Hums the four notes."
+    }
+  ],
+  "objectives": [
+    { "id": "get_key", "kind": "find", "target": "brass_key", "text": "Find the key to Room 12B" },
+    { "id": "get_book", "kind": "find", "target": "yearbook", "text": "Find grandmother's yearbook" },
+    { "id": "ask_okafor", "kind": "talk", "target": "okafor", "text": "Speak to Mrs. Okafor" },
+    { "id": "leave", "kind": "escape", "target": "back_exit", "text": "Get out through the back stairwell" }
+  ],
+  "events": [
+    { "trigger": { "on": "pickup", "ref": "yearbook" }, "effects": [{ "do": "lights_out", "text": "The bell rings. Class is dismissed." }, { "do": "chase", "ref": "hall_monitor" }] },
+    { "trigger": { "on": "enter", "ref": "music" }, "effects": [{ "do": "whisper", "text": "Four notes, from somewhere under the water." }] },
+    { "trigger": { "on": "talk", "ref": "okafor" }, "effects": [{ "do": "calm", "ref": "hall_monitor", "text": "Somewhere, humming stops." }] }
+  ],
+  "intro": "The front doors close behind you without a sound. The lobby smells of chalk and wet paper.",
+  "win": "Cold air, real air. Behind you, a single window on the second floor goes dark, and the yearbook in your hands is warm."
+}
